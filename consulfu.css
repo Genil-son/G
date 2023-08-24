@@ -1,0 +1,118 @@
+*{
+    margin-top: 0%;
+    margin: 0%;
+    padding: 0%;
+    font-family:'Times New Roman';
+}
+
+
+
+nav{
+    top:0px;
+    background: white;
+    border-bottom: 2px solid #0798E5;
+    width: 100vw;
+    height: 60px;
+align-items: center;
+text-align: center;
+justify-content: center;
+box-shadow:0px 3px 5px rgb(0, 0,0,0.8);
+z-index: 999;   \
+ flex-wrap: wrap;
+ position: fixed;  
+}
+
+
+
+.nav{
+    display: flex;
+}
+
+
+img{
+    width: 60px;
+    height: 60px;
+}
+.texto{
+    margin-top: 20px;
+    margin-left: 480px;
+}
+.btn{
+    margin-top: -40px;
+}
+.voltar{
+    padding: 10px 15px;
+    background: #0798E5;
+    color: white;
+    text-decoration: none;
+    margin-left: 1180px;
+}
+.voltar:hover{
+    background: red;
+    color: white;
+}
+.apagar{
+    margin-top: 5px;
+    margin-left: 100px;
+    color: red;
+}
+.apagar:hover{
+   color: yellowgreen;
+}
+
+.edit{
+    text-decoration: none;
+    color: white;
+}
+
+.edit:hover{
+    background: red;
+}
+
+
+
+
+@keyframes table{
+
+    from { background: orange;color: white;}
+        to {background: #0798E5;}
+    
+    }
+
+table{
+    margin-top: 62px;
+    background: #0798E5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    animation-name: table;
+    animation-duration:4s;
+    animation-iteration-count:2;
+}
+table,border{
+    border:solid #0798E5 ;
+}
+
+.table{
+    
+    height: 30px;
+}
+.eliminar{
+    margin-left: 940px;
+}
+
+.icone{
+    width: 400px;
+}
+.icon{
+    margin-top: 6px;
+    color: white;
+}
+.icon:hover{
+    margin-top: 6px;
+    color: red;
+}
+
+
+

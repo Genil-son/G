@@ -1,0 +1,151 @@
+
+*{
+    margin-top: 0%;
+    margin: 0%;
+    padding: 0%;
+    font-family:'Times New Roman';
+}
+
+
+nav{
+    top:0px;
+    background: white;
+    width: 100vw;
+    height: 60px;
+align-items: center;
+text-align: center;
+justify-content: center;
+box-shadow:0px 3px 5px rgb(0, 0,0,0.8);
+z-index: 999;
+ flex-wrap: wrap;
+ position: fixed;  
+}
+
+.nav{
+    display: flex;
+}
+
+.adi{
+    border-bottom: 3px solid #01CE73;
+    color:white ;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.calendar{
+    width: 60px;
+    height: 55px;
+    color: #01CE73;
+}
+
+.div-calendar{
+    margin-top: 2px;
+}
+
+form{
+    margin-left: 500px;
+    margin-top: 130px;
+}
+.color{
+    width: 350px;
+    height: 450px;
+    margin-left: -60px;
+    margin-top: -50px;
+    background: #004371 ;
+    border: #01CE73;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0,0,0.8);
+    border: solid #004371;
+    position: fixed;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 145px;
+    border-radius: 60px;
+}
+
+fieldset{
+    width: 300px;
+    height: 300px;
+    background: #004371;
+    border-radius: 10px;
+    margin-left: 22px;
+    margin-top: 40px;
+}
+
+button{
+    margin-top: 52px;
+    margin-left: 110px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #01CE73;
+    color: white;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background: red;
+}
+
+input{
+    width: 280px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 7px;
+    border:2px solid black;
+    border-radius: 6px;
+}
+
+.editar{
+    text-decoration: none;
+    background: #01CE73;
+    padding:-1px 2px;
+    color: white;
+}
+.editar:hover{
+    background: red;
+}
+.apagar{
+    background: red;
+    padding: 2px 2px;
+    color: white;
+    margin-left: 10px;
+}
+.apagar:hover{
+    background: #01CE73;
+    color: white;
+}
+tr{
+    background: #616A6F;
+}
+
+.nav{
+    display: flex;
+}
+
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+.btn{
+    margin-top: -40px;
+}
+.bt{
+    padding: 10px 15px;
+    background: #01CE73;
+    color: white;
+    text-decoration: none;
+    margin-left: 1170px;
+}
+.bt:hover{
+    background: red;
+    color: white;
+}
+

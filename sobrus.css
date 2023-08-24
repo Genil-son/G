@@ -1,0 +1,271 @@
+*{
+    top: 0%;
+    margin: 0%;
+    padding: 0%;
+    font-family:'Times New Roman';
+    
+}
+
+nav{
+    width: 100vw;
+    height: 70px;
+    background: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 999;
+    box-shadow: 0px 3px 5px rgb(0, 0, 0,0.8);
+    position: fixed;
+}
+
+.nav{
+display: flex;
+}
+.nav1{
+    margin-left: 1000px;
+}
+
+
+
+.col{
+    margin-left: -20px;
+    display: flex;
+    margin-top: 110px;
+    width: 1283px;
+    height: 300px;
+    background: #003366;
+}
+
+
+.medic-span{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+   
+.form-medic{
+    border-radius: 10px;
+    background: white;
+    margin-left: 26px;
+    width: 230px;
+    height: 250px;
+    margin-top: 25px;
+    box-shadow:0px 3px 5px rgb(0, 0,0,0.8);
+    animation-name: animacao3;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+.medic-img{
+    margin-left: 40px;
+    border-radius: 70px;
+    margin-top: 10px;
+    width: 150px;
+    height: 120px;
+}
+.medic-span{
+    margin-top: -10px;
+}
+.medic-span1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.img-doc{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 180px;
+}
+.agenda{
+    background: red;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+.red{
+    color: red;
+}
+.agenda:hover{
+    background: #01CE73;
+}
+
+.cor{
+    color: #003366;
+}
+
+
+.img{
+    width: 60px;
+    height: 60px;
+}
+.foto2{
+    margin-top: 30px;
+    border-radius: 20px;
+    width:720px;
+    height: 450px;
+}
+
+.foto4{
+    margin-top:30px ;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+
+.fotos1{
+    border-radius:10px ;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 3px 5px rgb(0, 0, 0,0.8);
+}
+.fotos2{
+    border-radius:10px ;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 3px 5px rgb(0, 0, 0,0.8);
+}
+.fotos3{
+    border-radius:10px ;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 3px 5px rgb(0, 0, 0,0.8);
+}
+.fotos4{
+    border-radius:10px ;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 3px 5px rgb(0, 0, 0,0.8);
+}
+.inst{
+    margin-top: 20px;
+    margin-left: 4px;
+}
+.volt{
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #003366;
+}
+
+.volt:hover{
+    background: #01CE73;
+}
+
+.texto{
+    background: #003366;
+    box-shadow: 0px 3px 5px rgb(0, 0, 0,0.200);
+    color: white;
+}
+
+
+
+
+.texto2{
+    height: 80px;
+    color: black;
+    background: white;
+    margin-top: 65px;
+    box-shadow: 0px 3px 5px rgb(0, 0,0,0.8);
+}
+
+@keyframes texto4 {
+from{margin-left: 30px;}
+to{margin-left: 150px;}
+    
+}
+
+.texto4{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 120px;
+    background: #003366;
+    color: white;
+    box-shadow: 0px 3px 5px rgb(0, 0,0,0.8);
+    margin-left: 40px;
+   margin-top: 72px;
+   font-size: 20px;
+   animation-name: texto4;
+   animation-duration:2s;
+   animation-iteration-count:infinite;
+   position: fixed;
+}
+
+.div-anali{
+    display: flex;
+}
+
+.anali{
+    width: 520px;
+    height: 445px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-top:2px solid red;
+    box-shadow: 0px 3px 5px rgb(0, 0,0,0.8);
+}
+
+.anali-text{
+    color: red;
+    margin-left:170px;
+}
+
+.icone-img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+
+
+
+footer{
+    margin-top: 140px;
+    box-shadow: 0px 3px 5px rgb(0, 0,0,0.8);
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    background: #004371;
+    color: white;
+}
+.footer{
+    margin-top: -80px;
+}
+
+.fot00{
+    margin-top: -60px;
+}
+
+.footer-top
+{
+    margin-top: 30px;
+}
+
+
+.fot4{
+    margin-top: 50px;
+}
+.img1{
+    width: 17x;
+    height: 17px;
+    border-radius: 50px;
+}
+
+
+
+.img3{
+    width: 20px;
+    height: 20px;
+    border-radius: 60px;
+}
+.cent1{
+    margin-top: -30px;
+    margin-left:1000px;
+}
+
+
